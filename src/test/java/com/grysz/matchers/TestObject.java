@@ -6,7 +6,7 @@ class TestObject {
     private final Object objectProp;
     private final Object[] anyArray;
 
-    public TestObject(String stringProp, int numericProp, Object objectProp, Object[] anyArray) {
+    TestObject(String stringProp, int numericProp, Object objectProp, Object[] anyArray) {
         this.stringProp = stringProp;
         this.numericProp = numericProp;
         this.objectProp = objectProp;
